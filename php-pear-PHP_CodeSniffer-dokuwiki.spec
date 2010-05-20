@@ -1,14 +1,12 @@
 %define		ruleset	dokuwiki
-%define		reldate	2009-12-25
-%define		ver	%(echo %{reldate} | tr -d -)
 Summary:	PHP_CodeSniffer tests for DokuWiki
 Name:		php-pear-PHP_CodeSniffer-%{ruleset}
-Version:	%{ver}
+Version:	20100129
 Release:	1
 License:	GPL v2
 Group:		Development/Languages/PHP
-Source0:	http://github.com/splitbrain/dokuwiki/tarball/release_stable_%{reldate}
-# Source0-md5:	27c6b35a62c4b508623f4b8eed6d3d58
+Source0:	http://download.github.com/splitbrain-dokuwiki-release_stable_2009-12-25-249-gc275533.tar.gz
+# Source0-md5:	8a9f0f6470877422f6aeb00e6513fa58
 URL:		http://github.com/splitbrain/dokuwiki/tree/master/_cs/
 Requires:	php-pear-PHP_CodeSniffer-dokuwiki
 BuildArch:	noarch
