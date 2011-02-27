@@ -2,12 +2,13 @@
 Summary:	PHP_CodeSniffer tests for DokuWiki
 Name:		php-pear-PHP_CodeSniffer-%{ruleset}
 Version:	20100129
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Development/Languages/PHP
 Source0:	http://download.github.com/splitbrain-dokuwiki-release_stable_2009-12-25-249-gc275533.tar.gz
 # Source0-md5:	8a9f0f6470877422f6aeb00e6513fa58
 URL:		http://github.com/splitbrain/dokuwiki/tree/master/_cs/
+Requires:	php-pear
 Requires:	php-pear-PHP_CodeSniffer-dokuwiki
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
