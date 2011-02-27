@@ -19,10 +19,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Coding Standard tests to be used with PHP CodeSniffer on DokuWiki's
 code.
 
-Set DokuWiki to be the default standard:
-
-#> phpcs --config-set default_standard DokuWiki
-
 %prep
 %setup -qc
 mv *-%{ruleset}-*/_cs/* .
